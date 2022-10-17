@@ -18,7 +18,7 @@ const Newnav = () => {
 
                 </div>
                 <div className='right_data'>
-                    <img/>
+                    <img src='./nav.jpg' alt='nav'/>
                 </div>
             </div>
 
