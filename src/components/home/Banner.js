@@ -21,7 +21,7 @@ const banner = () => {
           backgroundColor: "#fff",
           color: "#494949",
           borderRadius:0,
-          marginTop:0,
+          marginTop:"-22px",
           height: "104px"
         }
       }}>
