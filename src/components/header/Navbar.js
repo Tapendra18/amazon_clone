@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search'
 import Badge  from '@mui/material/Badge'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import { Avatar } from '@mui/material'
+import { NavLink } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
         <nav>
         <div className='left'>
             <div className='navlogo'>
-            <img src='./amazon_PNG25.png' alt="amazon "/>
+          <NavLink to="/"> <img src='./amazon_PNG25.png' alt="amazon "/></NavLink> 
             </div>
             <div className='nav_searchbaar'>
                 <input type="text" name="" id=''/>
@@ -23,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className='right'>
             <div className='nav_btn'>
-            <a href=''>signin</a>
+            <NavLink to="/login">signin</NavLink>
             </div>
             <div className='cart_btn'>
                 <Badge badgeContent={5} color="primary" >
